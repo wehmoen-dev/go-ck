@@ -13,22 +13,19 @@ go get -u github.com/wehmoen/go-ck
 ```go
 package main
 
-
 import (
-    "fmt"
-    "github.com/wehmoen/go-ck"
+	"fmt"
+	"github.com/wehmoen/go-ck/pkg/client"
 )
 
 const MyFavouriteRecipeId = "2529831396465550"
 
 func main() {
-    ck := client.NewClient()
-    recipes, err := ck.GetRecipe(MyFavouriteRecipeId)
-    if err != nil {
-        fmt.Println(err)
-    }
-    for _, recipe := range recipes {
-        fmt.Println(recipe.Title)
-    }
+	ck := client.NewClient()
+	recipe, err := ck.GetRecipe(MyFavouriteRecipeId)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(recipe.Title)
 }
 ```

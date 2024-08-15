@@ -4,8 +4,6 @@ import (
 	"testing"
 )
 
-const TestRecipeId = "2529831396465550" // Tasty pancakes
-
 func TestGetRecipe(t *testing.T) {
 	recipe, err := c.GetRecipe(TestRecipeId)
 	if err != nil {

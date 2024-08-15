@@ -4,8 +4,6 @@ import (
 	"testing"
 )
 
-const TestUserId = "bcfce3497b42e48f1210823471c1312f"
-
 func TestGetUser(t *testing.T) {
 	user, err := c.GetUser(TestUserId, false)
 	if err != nil {

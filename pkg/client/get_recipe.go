@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"github.com/wehmoen/go-ck/pkg/types"
+	"github.com/wehmoen-dev/go-ck/pkg/types"
 )
 
 func (c *c) GetRecipe(recipeId string) (*types.Recipe, error) {

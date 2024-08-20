@@ -2,7 +2,7 @@ package client
 
 import (
 	"github.com/go-resty/resty/v2"
-	"github.com/wehmoen/go-ck/pkg/types"
+	"github.com/wehmoen-dev/go-ck/pkg/types"
 )
 
 const ApiBaseUrl = "https://api.chefkoch.de/v2"

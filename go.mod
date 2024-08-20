@@ -1,4 +1,4 @@
-module github.com/wehmoen/go-ck
+module github.com/wehmoen-dev/go-ck
 
 go 1.22
 

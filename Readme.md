@@ -5,7 +5,7 @@ This package provides a simple rest client for the `chefkoch.de` API.
 ## Installation
 
 ```bash
-go get -u github.com/wehmoen/go-ck
+go get -u github.com/wehmoen-dev/go-ck
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ package main
 
 import (
     "fmt"
-    "github.com/wehmoen/go-ck"
+    "github.com/wehmoen-dev/go-ck"
 )
 
 const MyFavouriteRecipeId = "2529831396465550"

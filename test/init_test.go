@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/wehmoen/go-ck/pkg/client"
-	"github.com/wehmoen/go-ck/pkg/types"
+	"github.com/wehmoen-dev/go-ck/pkg/client"
+	"github.com/wehmoen-dev/go-ck/pkg/types"
 )
 
 const TestRecipeId = "2529831396465550" // Tasty pancakes

@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/wehmoen/go-ck/pkg/types"
+	"github.com/wehmoen-dev/go-ck/pkg/types"
 	"strconv"
 )
 

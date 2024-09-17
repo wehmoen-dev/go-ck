@@ -12,7 +12,8 @@ on:
 
 jobs:
   build-library:
-    runs-on: self-hosted
+    runs-on:
+      group: "enterprise/Default"
 
     steps:
       - name: Checkout code
